@@ -1,0 +1,124 @@
+.verifybox1{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vwrapper1{
+    width: 60%;
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verdiv1{
+    width: 60%;
+    height: 95%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    border:3px solid lightblue ;
+
+    align-items: center;
+    flex-direction: column;
+    
+}
+.verdiv1 input{
+    width: 100%;
+    height: 10%;
+    outline: none;
+    /* border: 1px solid grey; */
+    border: none;
+    border-bottom:  2px solid grey;
+
+
+}
+.verdiv1 h1{
+    color: rgb(112, 189, 215) ;
+}
+.innputt{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.sinput{
+    width: 100%;
+    height: 25%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 50px; */
+   
+    
+}
+.pass{
+
+    width: 100%;
+    height: 25%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.pass input{
+    height: 40%;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "raleway";
+    
+   /* background-color: green;  */
+   border: none;
+   border-bottom:  2px solid grey;
+
+
+}
+.sinput span{
+    color: rgb(255, 77, 79);
+    font-weight: 600;
+    cursor: pointer;
+}
+.sinput p{
+ font-size: 20px;
+ font-family: "raleway";
+}
+.sinput input{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "raleway";
+    height: 40%;  
+    width: 80%;
+   
+}
+.downss{
+    width: 80%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sbtn{
+    width: 40%;
+    height: 40%;
+    background-color: rgb(41, 179, 225);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,305 @@
+.Postpage {
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.postpagewrap {
+    width: 80%;
+    /* height: 800px; */
+    height: max-content;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    /* overflow: auto; */
+}
+
+.leftside {
+    width: 25%;
+    height: 800px;
+    background-color: rgb(215, 203, 203);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.upleft {
+    width: 100%;
+    height: 40%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.upleft h1 {
+    color: white;
+    font-size: "raleway";
+}
+
+.cir {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: red;
+    background: linear-gradient(to bottom left,  rgb(250, 122, 30),rgb(219, 48, 105), rgb(118, 65, 204),rgb(212, 42, 121));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cir img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.poost {
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    gap: 7px;
+    font-family: "raleway";
+    font-size: 15px;
+    /* flex-direction: column; */
+}
+
+.first {
+    width: 32%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.first p{
+    font-size: 20px;
+}
+
+.home {
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home h3 {
+    font-family: "raleway";
+    font-weight: 700;
+
+}
+
+.fhome {
+    font-family: "raleway";
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.utnnnn{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Crbtn{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(240, 69, 97);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "raleway";
+    cursor: pointer;
+
+}
+.Crbtn:hover{
+    background-color: grey;
+}
+
+.right {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    gap: 20px;
+    /* align-items: center; */
+}    
+
+.righhtwrap {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* background-color: aqua; */
+}
+/* .header{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+} */
+
+.rightup {
+    width: 100%;
+    height: 30%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endpeth {
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.endpeth input {
+    width: 70%;
+    height: 45px;
+    outline: none;
+    /* border: none; */
+
+}
+
+.rrrii {
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.circle5 {
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cirrrrrr {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    /* border: 2px solid rgb(241, 11, 7); */
+    background: linear-gradient(to bottom left,  rgb(250, 122, 30),rgb(219, 48, 105), rgb(118, 65, 204),rgb(212, 42, 121));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cirrrrrr img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 100%; 
+}
+
+.cir1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    font-family: "raleway";
+}
+/* .wrap{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+} */
+.piccc{
+    width: 100%;
+    height: max-content;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.div{
+    width: 40%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+.rrpic{
+    width: 80%;
+    height: 300px;
+    background-color: red;
+}
+.rrpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.icondiv1{
+    width: 80%;
+    height: 130px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 12px;
+  
+  }
+  .icondiv1 p{
+   font-size: 15px;
+   font-family: "raleway";
+   font-weight: 500;
+   
+  }
+  .ic{
+      width: 30%;
+      display: flex;
+      gap: 15px;
+  }
+  .hheyy{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+ 

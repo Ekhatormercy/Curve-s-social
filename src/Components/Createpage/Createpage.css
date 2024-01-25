@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .hOmepage{
+      width: 100%;
+      height: 100vh;
+      /* background: linear-gradient(to bottom left,  rgb(250, 122, 30),rgb(219, 48, 105), rgb(118, 65, 204),rgb(212, 42, 121)); */
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .hOmepage h1{
+  color:rgb(67, 67, 230);
+    font-family: "raleway";;
+  }
+  .pageholder{
+      width: 30%;
+      height: 80%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      display: flex;
+      /* justify-content: center; */
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+  .uppath{
+      width: 100%;
+      height: 20%;
+      /* background-color: grey; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: "raleway";
+      /* color: black; */
+      flex-direction: column;
+  }
+  .uppath span{
+      color:rgb(67, 67, 230);
+      font-family: "raleway";
+  }
+  .ImageT{
+      width: 80%;
+      height: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* background-color: grey; */
+  }
+  
+  .immg{
+      width: 100%;
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* background-color: antiquewhite; */
+  }
+  .image{
+      width:60%;
+      height: 100%;
+      /* background-color: pink; */
+      object-fit: cover;
+  
+  }
+  .image img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  label{
+      cursor: pointer;
+      font-size: 20px;
+      background-color: white;
+      font-family: "raleway";
+      font-weight: 700;
+      width: 60%;
+      /* color: black; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border: 2px solid blue */
+  }
+  .icondiv{
+    width: 60%;
+    height: 20%;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 15px;
+  
+  }
+  .ic{
+      width: 30%;
+      display: flex;
+      gap: 15px;
+  }
+  .Postbtn{
+      width: 20%;
+      height: 8%;
+      background-color:rgb(31, 31, 175);
+      color: white;
+      font-size: 20px;
+      font-family: "raleway";
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .BL{
+    width: 35%;
+      height: 8%;
+      background-color:rgb(31, 31, 175);
+
+      color: white;
+      font-size: 20px;
+      font-family: "raleway";
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none; 
+      cursor: pointer;
+  }
+  .BL:hover{
+    background-color:rgb(98, 98, 229);
+  }
+  .Postbtn:hover{
+    background-color:rgb(98, 98, 229);
+  }
+  .inpuu{
+      outline: none;
+      height: 50px;
+      /* border: none; */
+      font-size: 15px;
+      font-family: "raleway";
+  }
+  .inpuu1{
+      outline: none;
+      height: 50px;
+      /* border: none; */
+      font-size: 15px;
+      font-family: "raleway";
+  }
+  
