@@ -10,7 +10,7 @@ import mercyimg from "../../assets/mercyimg.jpeg"
 import ellaspics from "../../assets/ellaspics.jpg"
 import favourspics from "../../assets/favourspics.jpg"
 import henpics from "../../assets/henpics.jpg"
-import jerrypics from "../../assets/jerrypics.jpg"
+import jerrypics from "../../assets/Jerrypics.jpg"
 import marospics from "../../assets/marospics.jpg"
 const Postpage = () => {
 
