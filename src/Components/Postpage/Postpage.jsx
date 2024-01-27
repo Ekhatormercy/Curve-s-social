@@ -72,7 +72,7 @@ const Postpage = () => {
                             <img src={loggedUser.image} alt="" />
                         </div>
                         <input type="file" id="n" onChange={imagehold} hidden />
-                        <h1>Ekhator mercy</h1>
+                        <h1>mercy</h1>
                         <div className="poost">
 
                             <div className="first">
@@ -177,10 +177,10 @@ const Postpage = () => {
                                                     like ? <CiHeart style={{ fontSize: "35px" }} onClick={()=>handlelike(index)} /> : <FaHeart style={{ fontSize: "35px", color: "red", cursor: "pointer" }} onClick={()=>handlelike(index)} />
                                                 } */}
                                                 {
-                                                e.likers.findIndex(e=>e===loggedUser.email) > -1 ? <FaHeart style={{ fontSize: "35px", color: "red", cursor: "pointer" }} onClick={()=>handlelike(index)} /> : <CiHeart style={{ fontSize: "35px" }} onClick={()=>handlelike(index)} />
+                                                e.likers.findIndex(e=>e===loggedUser.email) > -1 ? <FaHeart className="iconic"  style={{ fontSize: "35px", color: "red", cursor: "pointer" }} onClick={()=>handlelike(index)} /> : <CiHeart  className="iconic"  style={{ fontSize: "35px" }} onClick={()=>handlelike(index)} />
                                                 }
-                                                <FaRegCommentDots style={{ fontSize: "35px" }} />
-                                                <FiSend style={{ fontSize: "35px" }} />
+                                                <FaRegCommentDots  className="iconic"  style={{ fontSize: "35px" }} />
+                                                <FiSend  className="iconic"  style={{ fontSize: "35px" }} />
                                             </div>
                                             <p>
                                                 {

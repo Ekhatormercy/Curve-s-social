@@ -73,7 +73,7 @@ const Createpage = () => {
 
                     <div className="icondiv">
                        {/* <input className="inpuu" type="text" placeholder="Write Your Name" value={name} onChange={(e)=>setName(e.target.value)}/> */}
-                       <input className="inpuu1" type="text" placeholder="Write Your Cooment" value={comment} onChange={(e)=>setComment(e.target.value)}/>
+                       <input className="inpuu1" type="text" placeholder="Write Your Comment" value={comment} onChange={(e)=>setComment(e.target.value)}/>
                        
                        
 

@@ -133,9 +133,8 @@ const Login = () => {
                     <div className="downss">
                         <button className="sbtn" onClick={handleLogin}>LOGIN</button>
                         Don't have an Account?
-                        <Link to='/signup' style={{ textDecoration: "none" }}>
-                            Sign Up
-                        </Link>
+                       <p>Sign up</p>
+                        
 
                     </div>
                 </div>
